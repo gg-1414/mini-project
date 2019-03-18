@@ -1,9 +1,42 @@
 @import './variables.scss';
 
-.bgSkew > div {
-  position: absolute;
+@mixin transform($transforms) {
+	   -moz-transform: $transforms;
+	     -o-transform: $transforms;
+	    -ms-transform: $transforms;
+	-webkit-transform: $transforms;
+          transform: $transforms;
 }
 
-.bgSkew__layer1-dark-purple {
-  
+@mixin skewY ($y) {
+   @include transform(skewY(#{$y}deg));
+}
+
+.bgSkew > div {
+  position: absolute;
+  width: 100%;
+   @include skewY(170);
+}
+
+.bgSkew {
+  .bgSkew__layer1--dark-purple {
+    height: 11em;
+    background: $dark-purple;
+    top: -150px;
+    z-index: 10;
+  }
+
+  .bgSkew__layer2--purple {
+    height: 25em;
+    background: $purple;
+    top: 20px;
+    z-index: 5;
+  }
+
+  .bgSkew__layer3--purple-blue {
+    height: 12em;
+    background: $purple-blue;
+    top: 350px;
+    top: 380px;
+  }
 }

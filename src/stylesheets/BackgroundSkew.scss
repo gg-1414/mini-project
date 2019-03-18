@@ -23,14 +23,14 @@
     height: 11em;
     background: $dark-purple;
     top: -150px;
-    z-index: 10;
+    z-index: -1;
   }
 
   .bgSkew__layer2--purple {
     height: 25em;
     background: $purple;
     top: 20px;
-    z-index: 5;
+    z-index: -5;
   }
 
   .bgSkew__layer3--purple-blue {
@@ -38,5 +38,6 @@
     background: $purple-blue;
     top: 350px;
     top: 380px;
+    z-index: -10;
   }
 }

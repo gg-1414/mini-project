@@ -12,3 +12,15 @@ body {
   font-family: 'Prompt', sans-serif;
   color: #1a9b9c;
 }
+
+button {
+  font-family: 'Prompt', sans-serif;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+  color: #333;
+}

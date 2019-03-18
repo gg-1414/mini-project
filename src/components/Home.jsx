@@ -16,9 +16,11 @@ const Home = () => (
     </header>
     <div className="main__learn-more">
       <span>learn how we can enhance your business</span>
-      <button></button>
+      <div>
+        <i className="fa fa-arrow-down fa-2x"></i>
+      </div>
     </div>
-    <div className="">
+    <div className="main__description">
 
     </div>
     <section className="main__services">

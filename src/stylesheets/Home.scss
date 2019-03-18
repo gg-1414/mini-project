@@ -72,9 +72,21 @@
   }
 
   .main__learn-more {
+    height: 250px;
+    margin: 50px auto;
+
     span {
       text-transform: uppercase;
+      line-height: 65px;
+      font-weight: 100;
+    }
 
+    div {
+      i {
+        background: $lime-green;
+        padding: 20px;
+        border-radius: 60px;
+      }
     }
   }
 }

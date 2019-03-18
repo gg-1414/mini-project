@@ -5,23 +5,23 @@ const Home = () => (
   <div className="main">
     <header>
       <h1>Get a website in 15 minutes <span>or less</span></h1>
-      <div className="clearfix search">
+      <div className="clearfix main__search">
         <input
           type="text"
-          className="search-bar"
+          className="main__search-bar"
           placeholder="Write your domain name here.."
         />
         <button>Search</button>
       </div>
     </header>
-    <div>
+    <div className="main__learn-more">
       <span>learn how we can enhance your business</span>
       <button></button>
     </div>
-    <div>
+    <div className="">
 
     </div>
-    <section className="services">
+    <section className="main__services">
       <div></div>
       <div></div>
       <div></div>

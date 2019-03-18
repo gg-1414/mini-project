@@ -10,7 +10,7 @@ body, html { font-size: 100%; padding: 0; margin: 0; overflow: auto; }
 
 body {
   font-family: 'Prompt', sans-serif;
-  color: #1a9b9c;
+  color: white;
 }
 
 button {
@@ -24,3 +24,11 @@ button:focus {
   outline: none;
   color: #333;
 }
+
+input {
+  font-family: 'Prompt', sans-serif;
+  border: none;
+}
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }

@@ -3,7 +3,7 @@ import BackgroundSkew from './components/BackgroundSkew';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import Footer from './components/Footer';
-import './stylesheets/App.css';
+import './App.css';
 
 class App extends Component {
   render() {

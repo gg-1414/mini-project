@@ -199,12 +199,42 @@
 
   // MAIN
   .main__ready-create-contact {
+    padding: 5px 90px;
+    margin-bottom: 50px;
+
     div {
       width: 50%;
       display: inline-block;
 
+      p { margin: 0; font-size: 1.5em; }
+
       p:nth-child(1) { color: $purple-blue; }
-      p:nth-child(2) { color: purple; }
+      p:nth-child(2) { color: $darker-purple; }
+    }
+
+    div:nth-child(1) { text-align: left; }
+    div:nth-child(2) {
+      text-align: right;
+
+      button {
+        text-transform: uppercase;
+        padding: 10px 23px;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: 1em;
+        box-shadow: 0px 3px 20px $lighter-grey;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      button:nth-child(1) {
+        background: $purple-blue;
+        color: $white;
+      }
+      button:nth-child(2) {
+        background: $white;
+      }
     }
   }
 }

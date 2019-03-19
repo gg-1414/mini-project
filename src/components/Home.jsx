@@ -62,7 +62,7 @@ const Home = () => (
         </div>
       </div>
     </section>
-    <section className="main__ready-create-contact">
+    <section className="main__ready-create-contact clearfix">
       <div>
         <p>Are you ready?</p>
         <p>Create an account, or contact us.</p>

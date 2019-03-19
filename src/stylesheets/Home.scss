@@ -116,12 +116,20 @@
       border-radius: 8px;
       letter-spacing: 0.5px;
       transition: all 0.4s;
+
+      background: linear-gradient(to right, white 50%, $purple 50%);
+      background-size: 200% 100%;
+      background-position: right bottom;
+      transition: all .5 ease-out;
     }
 
     button:hover {
       background: $white;
       color: $purple;
       border: 2px solid $purple;
+
+      background-position: left bottom;
+      color: $purple;
     }
   }
 
@@ -202,6 +210,8 @@
         }
       }
     }
+
+
   }
 
   // MAIN
@@ -233,14 +243,32 @@
         position: relative;
         top: 50%;
         transform: translateY(-50%);
+        transition: all 0.5s;
       }
 
       button:nth-child(1) {
-        background: $purple-blue;
+        background: linear-gradient(to right, white 50%, $purple-blue 50%);
         color: $white;
+        background-size: 200% 100%;
+        background-position: right bottom;
       }
+
+      button:nth-child(1):hover {
+        background-position: left bottom;
+        color: $purple-blue;
+      }
+
       button:nth-child(2) {
         background: $white;
+        background: linear-gradient(to right, $purple-blue 50%, white 50%);
+        color: $purple-blue;
+        background-size: 200% 100%;
+        background-position: right bottom;
+      }
+
+      button:nth-child(2):hover {
+        background-position: left bottom;
+        color: $white;
       }
     }
   }

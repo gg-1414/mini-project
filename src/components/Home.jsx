@@ -24,10 +24,13 @@ const Home = () => (
       </div>
     </div>
     <div className="main__description">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed vulputate odio ut enim blandit volutpat. Purus non enim praesent lorem ipsum dolor sit.</p>
-      <button>create your account</button>
+      <Reveal effect="fadeInUp">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed vulputate odio ut enim blandit volutpat. Purus non enim praesent lorem ipsum dolor sit.</p>
+        <button>create your account</button>
+      </Reveal>
     </div>
     <section className="main__services">
+      <Reveal effect="fadeInUp">
       <h4>Our Services</h4>
       <hr/>
       <div className="main__services-cards-container">
@@ -64,6 +67,7 @@ const Home = () => (
           </div>
         </div>
       </div>
+      </Reveal>
     </section>
     <section className="main__ready-create-contact">
       <div>

@@ -23,6 +23,11 @@ nav {
     color: $white;
     font-size: 1em;
     padding: 0 1em;
+    transition: all 0.2s;
+  }
+
+  div > button:hover {
+    opacity: 0.8;
   }
 
   div > button:nth-child(4) {

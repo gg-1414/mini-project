@@ -7,7 +7,7 @@ const Home = () => (
     <header>
       <Reveal effect="fadeInUp">
         <h1>Get a website in 15 minutes <span>or less</span></h1>
-        <div className="clearfix main__search">
+        <div className="main__search">
           <input
             type="text"
             className="main__search-bar"

@@ -19,6 +19,7 @@ button {
   border: none;
   background: transparent;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 button:focus {
@@ -30,11 +31,11 @@ input {
   font-family: 'Prompt', sans-serif;
   border: none;
   transition: all 0.3s;
+  border-radius: 8px;
 }
 
 input:focus {
   outline: none;
-  /* border: 2px solid #a765f1; */
 }
 
 p, span {
@@ -46,6 +47,3 @@ a {
   color: white;
   cursor: pointer;
 }
-
-.clearfix:before, .clearfix:after { content: " "; display: table; }
-.clearfix:after { clear: both; }

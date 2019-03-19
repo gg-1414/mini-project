@@ -28,14 +28,14 @@
 
   .bgSkew__layer2--purple {
 		height: 28em;
-    background: #7652e3;
+    background: $purple;
     top: 20px;
     z-index: -5;
   }
 
   .bgSkew__layer3--purple-blue {
 		height: 14em;
-    background: #736fdf;
+    background: $purple-blue;
     top: 350px;
     top: 410px;
     z-index: -10;
@@ -43,7 +43,7 @@
 
 	.bgSkew__layer4--white {
 		height: 58em;
-    background-color: #fff;
+    background-color: $white;
     top: 610px;
     position: absolute;
     z-index: -15;

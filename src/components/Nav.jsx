@@ -1,5 +1,4 @@
 import React from 'react';
-import { slide as Menu } from 'react-burger-menu';
 import '../stylesheets/Nav.scss';
 
 const Nav = ( showSettings ) => (

@@ -36,8 +36,14 @@ nav {
     line-height: 38px;
     border-radius: 5px;
     box-shadow: 0px 3px 14px #59488e;
+    transition: all 0.3s;
   }
 
+  div > button:nth-child(5):hover {
+    background: $white;
+    color: $lime-green;
+    font-weight: bolder;
+  }
 }
 
 .nav--sticky-shrink {

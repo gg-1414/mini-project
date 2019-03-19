@@ -29,6 +29,12 @@ button:focus {
 input {
   font-family: 'Prompt', sans-serif;
   border: none;
+  transition: all 0.3s;
+}
+
+input:focus {
+  outline: none;
+  /* border: 2px solid #a765f1; */
 }
 
 p, span {

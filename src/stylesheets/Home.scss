@@ -115,6 +115,13 @@
       font-size: 1em;
       border-radius: 8px;
       letter-spacing: 0.5px;
+      transition: all 0.4s;
+    }
+
+    button:hover {
+      background: $white;
+      color: $purple;
+      border: 2px solid $purple;
     }
   }
 
@@ -164,7 +171,7 @@
           transform: translateY(-50%);
         }
 
-        .main__service-cards-text {
+        .main__services-card-text {
           display: inline-block;
           width: 395px;
           margin: 0;
@@ -270,5 +277,25 @@
   100% {
     opacity: 1;
     transform: translateZ(0);
+  }
+}
+
+@media screen and (max-width: 1368px) {
+  .main {
+    .main__services {
+      .main__services-cards-container {
+        .main__services-card {
+          width: 70%;
+        }
+      }
+
+      .main__services-card > img {
+        width: auto;
+      }
+
+      .main__services-card > .main__services-card-text {
+        width: 70%;
+      }
+    }
   }
 }

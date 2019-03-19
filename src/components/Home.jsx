@@ -33,7 +33,7 @@ const Home = () => (
       <div className="main__services-cards-container">
         <div className="main__services-card">
           <img src="/host-icon.png" alt="web host"/>
-          <div className="main__service-cards-text">
+          <div className="main__services-card-text">
             <h5>web hosting</h5>
             <i className="fa fa-arrow-right fa-1x"></i>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -41,7 +41,7 @@ const Home = () => (
         </div>
         <div className="main__services-card">
           <img src="/host-icon.png" alt="web host"/>
-          <div className="main__service-cards-text">
+          <div className="main__services-card-text">
             <h5>resellers</h5>
             <i className="fa fa-arrow-right fa-1x"></i>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -49,7 +49,7 @@ const Home = () => (
         </div>
         <div className="main__services-card">
           <img src="/host-icon.png" alt="web host"/>
-          <div className="main__service-cards-text">
+          <div className="main__services-card-text">
             <h5>vps hosting</h5>
             <i className="fa fa-arrow-right fa-1x"></i>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -57,7 +57,7 @@ const Home = () => (
         </div>
         <div className="main__services-card">
           <img src="/host-icon.png" alt="web host"/>
-          <div className="main__service-cards-text">
+          <div className="main__services-card-text">
             <h5>cloud hosting</h5>
             <i className="fa fa-arrow-right fa-1x"></i>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -65,7 +65,7 @@ const Home = () => (
         </div>
       </div>
     </section>
-    <section className="main__ready-create-contact clearfix">
+    <section className="main__ready-create-contact">
       <div>
         <p>Are you ready?</p>
         <p>Create an account, or contact us.</p>

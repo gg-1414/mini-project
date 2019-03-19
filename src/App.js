@@ -15,7 +15,7 @@ class App extends Component {
   handleScroll = () => {
     let scrollPosition = Math.round( window.scrollY );
 
-    if( scrollPosition > 350 ) { // if scrolled past 300px, add nav--sticky-shrink class
+    if( scrollPosition > 30 ) { // if scrolled past 300px, add nav--sticky-shrink class
       document.querySelector( 'nav' ).classList.add( 'nav--sticky-shrink' );
     } else { // if not, remove nav--sticky-shrink class from nav
         document.querySelector( 'nav' ).classList.remove( 'nav--sticky-shrink' );

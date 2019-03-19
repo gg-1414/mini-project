@@ -8,6 +8,7 @@ nav {
   height: 75px;
   padding: 1em 6em;
   color: $white;
+  transition: all 0.3s;
 
   h1, div {
     display: inline-block;
@@ -42,8 +43,11 @@ nav {
 .nav--sticky-shrink {
   height: 95px;
   background: $white;
+  background: $purple;
   color: $purple;
-  border-bottom: 2px solid $purple-blue;
+  color: $white;
+  // border-bottom: 2px solid $purple-blue;
+  z-index: 20;
 
   h1, button {
     -webkit-transition: all 0.5s;
@@ -54,6 +58,7 @@ nav {
   div {
     button {
       color: $purple;
+      color: $white;
     }
   }
 }

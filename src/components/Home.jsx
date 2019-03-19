@@ -1,22 +1,25 @@
 import React from 'react';
+import Reveal from 'react-reveal/Reveal';
 import '../stylesheets/Home.scss';
 
 const Home = () => (
   <div className="main">
     <header>
-      <h1>Get a website in 15 minutes <span>or less</span></h1>
-      <div className="clearfix main__search">
-        <input
-          type="text"
-          className="main__search-bar"
-          placeholder="Write your domain name here.."
-        />
-        <button>Search</button>
-      </div>
+      <Reveal effect="fadeInUp">
+        <h1>Get a website in 15 minutes <span>or less</span></h1>
+        <div className="clearfix main__search">
+          <input
+            type="text"
+            className="main__search-bar"
+            placeholder="Write your domain name here.."
+          />
+          <button>Search</button>
+        </div>
+      </Reveal>
     </header>
     <div className="main__learn-more">
       <span>learn how we can enhance your business</span>
-      <div>
+      <div className="main__arrow-animate">
         <i className="fa fa-arrow-down fa-2x"></i>
       </div>
     </div>

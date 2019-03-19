@@ -238,3 +238,37 @@
     }
   }
 }
+
+.main__arrow-animate {
+  animation: MoveUpDown 1.7s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  -o-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 10px;
+  }
+}
+
+@keyframes fadeInUp {
+  0%   {
+    opacity: 0;
+    transform: translate3d(0,100%,0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}

@@ -330,6 +330,15 @@
 
 @media screen and (max-width: 939px) {
   .main {
+    .main__learn-more {
+      height: auto;
+      margin-top: 30px;
+    }
+
+    .main__description {
+      width: 90%;
+    }
+
     .main__services {
       .main__services-cards-container {
         .main__services-card {
@@ -339,6 +348,26 @@
             width: 330px;
           }
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .main {
+    .main__ready-create-contact {
+      padding: 0;
+      width: 90%;
+
+      div {
+        display: block;
+        width: 100%;
+        margin: 50px auto;
+      }
+
+      div:nth-child(1),
+      div:nth-child(2) {
+        text-align:center;
       }
     }
   }
@@ -391,6 +420,8 @@
     width: 95%;
   }
   .main {
+    margin-top: 9em;
+
     .main__services {
       .main__services-cards-container {
         .main__services-card {
@@ -413,14 +444,34 @@
   }
 }
 
+@media screen and (max-width: 472px) {
+  .main {
+    .main__ready-create-contact {
+      div {
+        button:nth-child(2) {
+          width: 238.5px;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 465px) {
   .main {
+
     header {
       h1 { font-size: 2.9em; }
+
       .main__search {
         input, button {
           font-size: 0.9em;
           padding: 12px;
+        }
+      }
+
+      .main__learn-more {
+        span {
+          font-size: 0.9em;
         }
       }
     }
@@ -451,6 +502,8 @@
   }
   .main {
     .main__services {
+      margin-bottom: 0;
+
       .main__services-cards-container {
         .main__services-card {
           width: 100%;
@@ -467,6 +520,21 @@
             }
           }
         }
+      }
+    }
+
+    .main__learn-more {
+      margin-top: 65px;
+
+      span {
+        line-height: 40px;
+        font-size: 0.9em;
+      }
+    }
+
+    .main__ready-create-contact {
+      div {
+        margin: 20px auto;
       }
     }
   }

@@ -1,6 +1,6 @@
 @import './variables.scss';
 
-nav {
+.top-nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -21,13 +21,14 @@ nav {
   div > button {
     line-height: 75px;
     color: $white;
+    opacity: 0.8;
     font-size: 1em;
     padding: 0 1em;
     transition: all 0.2s;
   }
 
   div > button:hover {
-    opacity: 0.8;
+    opacity: 1;
   }
 
   div > button:nth-child(4) {
@@ -37,6 +38,7 @@ nav {
 
   div > button:nth-child(5) {
     background: $lime-green;
+    opacity: 1;
     padding: 0px 25px;
     line-height: 38px;
     border-radius: 5px;
@@ -74,13 +76,53 @@ nav {
   }
 }
 
-@media screen and (max-width: 435px) {
-  nav {
-    padding: 0 2em;
+@media screen and (max-width: 945px) {
+  .top-nav {
+    text-align: center;
+    height: 130px;
 
-    h1, div {
-      line-height: 100px;
-      margin: 0;
+    h1, .nav-bar { display: block; }
+    h1 { margin: 0; }
+    .nav-bar { float: none; }
+  }
+
+  .nav--sticky-shrink {
+    height: 130px;
+  }
+}
+
+@media screen and (max-width: 706px) {
+  .top-nav {
+    height: 105px;
+    padding: 0;
+
+    h1 { line-height: 55px; font-size: 1.9em; }
+
+    .nav-bar {
+      line-height: 50px;
+      padding: 0 5px;
+
+      button {
+        padding: 0 5px;
+        line-height: 0;
+        font-size: 0.9em;
+      }
+
+      button:nth-child(4) { padding-left: 20px; }
+      button:nth-child(5) {
+        line-height: 28px;
+        padding: 0 13px;
+      }
     }
   }
+
+  .nav--sticky-shrink {
+    h1 {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media screen and (max-width: 435px) {
+  
 }

@@ -1,10 +1,11 @@
 import React from 'react';
+import { slide as Menu } from 'react-burger-menu';
 import '../stylesheets/Nav.scss';
 
-const Nav = () => (
-  <nav>
+const Nav = ( showSettings ) => (
+  <nav className="top-nav">
     <h1>MyWebNow</h1>
-    <div>
+    <div className="nav-bar">
       <button>Home</button>
       <button>Why Us</button>
       <button>Contact Us</button>

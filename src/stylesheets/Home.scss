@@ -1,7 +1,5 @@
 @import './variables.scss';
 
-// $search-height: 65px;
-
 .main > header,
 .main > div,
 .main > section {
@@ -14,7 +12,7 @@
 	margin-top: 7.5em;
   text-align: center;
 
-  // <HEADER>
+  // MAIN <HEADER>
   header > h1,
   header > div {
     width: 545px;
@@ -78,7 +76,7 @@
     }
   }
 
-  // LEARN MORE <DIV>
+  // MAIN LEARN MORE <DIV>
   .main__learn-more {
     height: 250px;
     margin: 50px auto;
@@ -139,23 +137,74 @@
       margin-bottom: 30px;
     }
 
-    .main__services-cards {
+    .main__services-cards-container {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
 
-      div {
+      .main__services-card {
         width: 550px;
         height: 200px;
+        color: black;
+        text-align: left;
         background: #fcfcfd;
         border: 2px solid #ebebeb;
         border-radius: 10px;
         margin: 10px 18px;
+        overflow: hidden;
+
+        img {
+          width: 150px;
+          float: left;
+          position: relative;
+          left: -25px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+
+        .main__service-cards-text {
+          display: inline-block;
+          width: 395px;
+          margin: 0;
+          float: right;
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+
+          h5 {
+            font-size: 1.3em;
+            margin: 10px 0;
+            text-transform: uppercase;
+            display: inline-block;
+          }
+
+          i {
+            padding: 0 10px;
+            position: relative;
+            top: -2px;
+          }
+
+          p {
+            font-size: 1em;
+            color: $light-grey;
+            margin: 10px 0;
+            padding-right: 10px;
+          }
+        }
       }
     }
   }
 
+  // MAIN
+  .main__ready-create-contact {
+    div {
+      width: 50%;
+      display: inline-block;
 
+      p:nth-child(1) { color: $purple-blue; }
+      p:nth-child(2) { color: purple; }
+    }
+  }
 }

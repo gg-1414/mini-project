@@ -40,4 +40,12 @@
     top: 410px;
     z-index: -10;
   }
+
+	.bgSkew__layer4--grey {
+		height: 28em;
+		background-color: $lightest-grey;
+		top: 1530px;
+		position: absolute;
+		z-index: -10;
+	}
 }

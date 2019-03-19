@@ -4,22 +4,13 @@ import '../stylesheets/Footer.scss';
 const Footer = () => (
   <footer>
     <section className="footer__contact">
-      <div>
-        <i className="fa fa-phone"></i>
-        <p>+1 800 WEBSITE</p>
-      </div>
-      <div>
-        <i className="fa fa-envelope"></i>
-        <p>hello@mywebnow.com</p>
-      </div>
-      <div>
-        <i className="fa fa-map-marker"></i>
+        <p><i className="fa fa-phone"></i>+1 800 WEBSITE</p>
+        <p><i className="fa fa-envelope"></i>hello@mywebnow.com</p>
         <div className="footer__contact-location">
-          <p>1 Main St</p>
-          <p>Floor 6,</p>
-          <p>New York, NY 10005</p>
+          <p><i className="fa fa-map-marker"></i>1 Main St</p>
+          <p><i className="fa fa-map-marker"></i>Floor 6,</p>
+          <p><i className="fa fa-map-marker"></i>New York, NY 10005</p>
         </div>
-      </div>
     </section>
     <section className="footer__company">
       <p>Company</p>
@@ -37,12 +28,12 @@ const Footer = () => (
     </section>
     <section className="footer__other">
       <p>Other</p>
-      <a href="#">Transfer&nbsp;domains</a>
+      <a href="#">Transfer Domains</a>
       <a href="#">Customer Portal</a>
       <a href="#">Support Portal</a>
       <a href="#">Video Tutorials</a>
     </section>
-    <section className="social">
+    <section className="footer__social">
         <a href="#"><i className="fa fa-facebook fa-2x"></i></a>
         <a href="#"><i className="fa fa-youtube fa-2x"></i></a>
         <a href="#"><i className="fa fa-twitter fa-2x"></i></a>

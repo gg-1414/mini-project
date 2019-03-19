@@ -14,29 +14,29 @@ const Footer = () => (
     </section>
     <section className="footer__company">
       <p>Company</p>
-      <a href="#">About Us</a>
-      <a href="#">News</a>
-      <a href="#">FAQ</a>
-      <a href="#">Contact Us</a>
+      <a>About Us</a>
+      <a>News</a>
+      <a>FAQ</a>
+      <a>Contact Us</a>
     </section>
     <section className="footer__services">
       <p>Services</p>
-      <a href="#">Web Hosting</a>
-      <a href="#">Cloud Hosting</a>
-      <a href="#">VPS Servers</a>
-      <a href="#">Domain Names</a>
+      <a>Web Hosting</a>
+      <a>Cloud Hosting</a>
+      <a>VPS Servers</a>
+      <a>Domain Names</a>
     </section>
     <section className="footer__other">
       <p>Other</p>
-      <a href="#">Transfer Domains</a>
-      <a href="#">Customer Portal</a>
-      <a href="#">Support Portal</a>
-      <a href="#">Video Tutorials</a>
+      <a>Transfer Domains</a>
+      <a>Customer Portal</a>
+      <a>Support Portal</a>
+      <a>Video Tutorials</a>
     </section>
     <section className="footer__social">
-        <a href="#"><i className="fa fa-facebook fa-2x"></i></a>
-        <a href="#"><i className="fa fa-youtube fa-2x"></i></a>
-        <a href="#"><i className="fa fa-twitter fa-2x"></i></a>
+        <a><i className="fa fa-facebook fa-2x"></i></a>
+        <a><i className="fa fa-youtube fa-2x"></i></a>
+        <a><i className="fa fa-twitter fa-2x"></i></a>
     </section>
   </footer>
 );

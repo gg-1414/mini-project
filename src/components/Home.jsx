@@ -29,7 +29,7 @@ const Home = () => (
       <hr/>
       <div className="main__services-cards-container">
         <div className="main__services-card">
-          <img src="/host-icon.png" alt="web host image"/>
+          <img src="/host-icon.png" alt="web host"/>
           <div className="main__service-cards-text">
             <h5>web hosting</h5>
             <i className="fa fa-arrow-right fa-1x"></i>
@@ -37,7 +37,7 @@ const Home = () => (
           </div>
         </div>
         <div className="main__services-card">
-          <img src="/host-icon.png" alt="web host image"/>
+          <img src="/host-icon.png" alt="web host"/>
           <div className="main__service-cards-text">
             <h5>resellers</h5>
             <i className="fa fa-arrow-right fa-1x"></i>
@@ -45,7 +45,7 @@ const Home = () => (
           </div>
         </div>
         <div className="main__services-card">
-          <img src="/host-icon.png" alt="web host image"/>
+          <img src="/host-icon.png" alt="web host"/>
           <div className="main__service-cards-text">
             <h5>vps hosting</h5>
             <i className="fa fa-arrow-right fa-1x"></i>
@@ -53,7 +53,7 @@ const Home = () => (
           </div>
         </div>
         <div className="main__services-card">
-          <img src="/host-icon.png" alt="web host image"/>
+          <img src="/host-icon.png" alt="web host"/>
           <div className="main__service-cards-text">
             <h5>cloud hosting</h5>
             <i className="fa fa-arrow-right fa-1x"></i>

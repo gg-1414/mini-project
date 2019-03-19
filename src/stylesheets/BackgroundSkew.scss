@@ -41,11 +41,11 @@
     z-index: -10;
   }
 
-	.bgSkew__layer4--grey {
-		height: 28em;
-		background-color: $lightest-grey;
-		top: 1530px;
-		position: absolute;
-		z-index: -10;
+	.bgSkew__layer4--white {
+		height: 58em;
+    background-color: #fff;
+    top: 610px;
+    position: absolute;
+    z-index: -15;
 	}
 }

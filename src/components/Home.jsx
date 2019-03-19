@@ -21,13 +21,18 @@ const Home = () => (
       </div>
     </div>
     <div className="main__description">
-
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed vulputate odio ut enim blandit volutpat. Purus non enim praesent lorem ipsum dolor sit.</p>
+      <button>create your account</button>
     </div>
     <section className="main__services">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <h4>Our Services</h4>
+      <hr/>
+      <div className="main__services-cards">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </section>
   </div>
 );

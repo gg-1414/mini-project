@@ -18,40 +18,15 @@ footer {
     flex-basis: 260px;
     padding: 0 40px;
 
-    div {
 
-      i, p {
+    p { margin: 0; }
 
-      }
-    }
-
-    p {
-      margin: 0;
-      // display: inline-block;
-    }
-
-  }
-
-  section:nth-child(1) {
-
-  }
-
-  section:nth-child(2) {
-
-  }
-
-  section:nth-child(3) {
-
-  }
-
-  section:nth-child(4) {
   }
 
   section:nth-child(5) {
     flex-grow: 1;
     flex-basis: 40px;
   }
-
 }
 
 footer > section > div:first-child > p,
@@ -111,13 +86,20 @@ footer > section > p:first-child {
   align-content: center;
   align-items: flex-start;
 
-  p {
+  p, a {
     padding-bottom: 17px;
   }
 
   p:nth-child(1) {
     font-weight: 900;
   }
+
+  a {
+    color: $lighter-grey;
+    transition-duration: 0.3s;
+  }
+
+  a:hover { color: $white; }
 }
 
 .social {
@@ -125,8 +107,14 @@ footer > section > p:first-child {
   position: relative;
   top: 0;
 
-  p {
-    padding-bottom: 15px;
-    color: $purple-grey;
+  a {
+    i {
+      padding-bottom: 15px;
+      color: $purple-grey;
+      transition-duration: 0.5s;
+    }
+    i:hover {
+      color: $white;
+    }
   }
 }

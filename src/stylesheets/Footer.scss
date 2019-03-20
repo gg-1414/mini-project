@@ -1,5 +1,6 @@
 @import './variables.scss';
 
+// GENERAL COMPONENT STYLING
 footer {
   background: $purple-blue;
   padding: 50px 80px;
@@ -27,11 +28,13 @@ footer {
   }
 }
 
+// all text from first section of footer is bold, as well as first line from all other sections
 footer > section > div:first-child > p,
 footer > section > p:first-child {
   font-weight: bolder;
 }
 
+// FIRST SECTION OF FOOTER
 .footer__contact {
   p {
     display: inline-block;
@@ -65,6 +68,7 @@ footer > section > p:first-child {
   }
 }
 
+// SECOND, THIRD, FOURTH, AND LAST SECTIONS
 .footer__company,
 .footer__services,
 .footer__other,
@@ -104,6 +108,7 @@ footer > section > p:first-child {
   }
 }
 
+// MEDIA QUERIES
 @media screen and (max-width: 1409px) {
   footer {
     display: grid;
@@ -210,15 +215,11 @@ footer > section > p:first-child {
 
 @media screen and (max-width: 320px) {
   footer {
-    section {
-      padding: 30px 0px;
-    }
+    section { padding: 30px 0px; }
 
     .footer__social {
       a {
-        i {
-          font-size: 2.5em;
-        }
+        i { font-size: 2.5em; }
       }
     }
   }

@@ -53,13 +53,13 @@
   }
 }
 
+// class for when user scrolls down, nav becomes "sticky", and site name shrinks on smaller devices.
 .nav--sticky-shrink {
   height: 95px;
   background: $white;
   background: $purple;
   color: $purple;
   color: $white;
-  // border-bottom: 2px solid $purple-blue;
   z-index: 20;
 
   h1, button {
@@ -76,6 +76,7 @@
   }
 }
 
+// MEDIA QUERIES
 @media screen and (max-width: 945px) {
   .top-nav {
     text-align: center;
